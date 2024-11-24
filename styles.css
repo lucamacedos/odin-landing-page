@@ -21,11 +21,11 @@ a {
 .navbar {
     background-color: #1F2937;
     color: #FFF;
-    height: 90px;
+    height: 60px;
 }
 
 .navbar .container {
-    width: 1200px;
+    width: 1020px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -39,7 +39,7 @@ a {
 }
 
 .navbar .logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -49,18 +49,54 @@ a {
     color: #E5E7EB;
 }
 
-
 .header {
-    background-color: #1F2937;  
+    background-color: #1F2937;
     color: #FFF;
 }
 
 .header .container {
-    width: 1200px;
+    width: 1024px;
+    height: 500px;
     margin: 0 auto;
     display: flex;
+    gap: 60px;
+    align-items: center;
 }
 
 .header .header-text {
-    
+    flex: 1;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.header-text button {
+    background-color: #3b82f6;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 10px 35px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header .header-image {
+    font-size: 18px;
+    height: 220px;
+    background-color: #6d747d;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
