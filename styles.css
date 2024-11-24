@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -52,6 +53,7 @@ a {
 .header {
     background-color: #1F2937;
     color: #FFF;
+    margin-bottom: 50px;
 }
 
 .header .container {
@@ -67,19 +69,19 @@ a {
     flex: 1;
 }
 
-.header-text h1 {
+.header h1 {
     font-size: 48px;
     color: #F9FAF8;
     margin-bottom: 5px;
 }
 
-.header-text p {
+.header p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
 }
 
-.header-text button {
+.header button {
     background-color: #3b82f6;
     font-size: 18px;
     font-weight: 900;
@@ -99,4 +101,119 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info-section {
+    background-color: #FFF;
+    color: #1F2937;
+    margin-bottom: 100px;
+}
+
+.info-section .container {
+    width: 820px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.info-section p {
+    font-size: 18px;
+}
+
+
+.info-section .info-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.info-section .box {
+    flex: 1;
+    border: 4px solid #3b82f6;
+    border-radius: 15px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.testimonial-section {
+    background-color: #e5e7eb;
+    height: 430px;
+}
+
+.testimonial-section .container {
+    width: 780px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.testimonial-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.testimonial-section span {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.action-section {
+    background-color: #FFF;
+    color: #FFF;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.action-section .container {
+    background-color: #3b82f6;
+    border-radius: 10px;
+    width: 1024px;
+}
+
+.action-section .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+.action-section h5 {
+    font-size: 24px;
+}
+
+.action-section p {
+    font-size: 18px;
+}
+
+.action-section button {
+    color: #FFF;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    border: 2px solid #FFF;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #FFF;
+    padding: 40px 0px;
+    text-align: center;
 }
